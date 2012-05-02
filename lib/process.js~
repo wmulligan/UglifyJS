@@ -850,8 +850,8 @@ function ast_mangle(ast, options) {
                         });
                 }
         }, function() {
-        				  //return ast_object_scope(ast_add_scope(ast));
-                return ast_object_mangle(ast_object_scope(ast_add_scope(ast)));
+        				  return ast_object_scope(ast_add_scope(ast));
+                //return ast_object_mangle(ast_object_scope(ast_add_scope(ast)));
         });
 };
 
